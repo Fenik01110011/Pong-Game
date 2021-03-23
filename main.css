@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#container {
+    border: 5px solid white;
+}
+
+header {
+    text-align: center;
+    font-size: 1.2em;
+    border-bottom: 5px solid white;
+}
+
+.score {
+    float: left;
+    width: 33%;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.score p {
+    margin: 15px;
+}
+
+canvas {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+}
+
+.nav {
+    float: left;
+    width: 33%;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.nav div {
+    font-family: Arial, sans-serif;
+    color: black;
+    margin: auto;
+    font-size: 1.7em;
+    padding: 5px;
+    width: 150px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid white;
+}
+
+.nav div:hover {
+    opacity: 0.8;
+}
+
+.nav div:active {
+    opacity: 0.6;
+}
+
+.nav:nth-child(1) div {
+    background-color: green; 
+}
+.nav:nth-child(2) div {
+    background-color: white;
+}
+.nav:nth-child(3) div {
+    background-color: #0000ff;
+    color: white;
+}
+
+
+
+footer {
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+}
