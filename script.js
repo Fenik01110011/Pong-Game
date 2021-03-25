@@ -84,7 +84,7 @@ const init = () => {
 	//userSettings.setSettings();
 
 	//tworzenie poczatkowych obiektow
-	players.push(new Player("Player 1", 0, 0, 1), new Player("Komputer", 1, computerLevel, 2));
+	players.push(new Player("Player 1", 0, 0, 1), new Player("Computer", 1, computerLevel, 2));
 
 	paddels.push(new Paddel(paddelsWidth, paddelsHeight, "green", "black", 10, (canvas.height - paddelsHeight) / 2, paddelsSpeed),
 		new Paddel(paddelsWidth, paddelsHeight, "blue", "black", canvas.width - 30, (canvas.height - paddelsHeight) / 2, paddelsSpeed));
